@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     $(DEVICE_PATH)/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # Audio calibration
@@ -74,10 +73,6 @@ PRODUCT_PACKAGES += \
     fstab.kagura \
     init.recovery.kagura \
     init.kagura
-
-# NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.kagura
 
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
