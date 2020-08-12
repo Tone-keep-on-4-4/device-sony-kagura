@@ -13,3 +13,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_kagura.mk
+
+COMMON_LUNCH_CHOICES += \
+    lineage_kagura-eng \
+    lineage_kagura-userdebug
