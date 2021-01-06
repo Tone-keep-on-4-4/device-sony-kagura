@@ -25,7 +25,8 @@ PRODUCT_COPY_FILES := \
 
 # Sensors Configuration
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
+    $(DEVICE_PATH)/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
+    $(DEVICE_PATH)/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # Thermal Configuration
 PRODUCT_COPY_FILES += \
